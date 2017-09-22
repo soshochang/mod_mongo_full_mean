@@ -1,4 +1,5 @@
 var mongoose = require('../controllers/mongoose.js');
+var path = require('path');
 
 module.exports = function (app){
     console.log("in routes");
